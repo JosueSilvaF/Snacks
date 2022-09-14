@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    android:orientation="vertical"
+    tools:context=".fragment.guia.GuiaFragment">
+
+    <TextView
+        android:id="@+id/txtSubtituloGuia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/signika"
+        android:text="Para você saber"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ScrollView
+        android:id="@+id/ScrollGuia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnQuandoComecar"
+                android:layout_width="360dp"
+                android:layout_height="100dp"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="@color/quando_comecar"
+                android:drawableRight="@drawable/quando_comecar_img"
+                android:fontFamily="@font/signika"
+                android:text="Quando Começar?"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnComoComecar"
+                android:layout_width="360dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_botoes"
+                android:drawableRight="@drawable/como_comecar_img"
+                android:fontFamily="@font/signika"
+                android:text="Como Começar?"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/como_comecar" />
+
+            <Button
+                android:id="@+id/btnRotinaAlimentar"
+                android:layout_width="360dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="@color/rotina_alimentar"
+                android:drawableRight="@drawable/rotina_alimentar_img"
+                android:fontFamily="@font/signika"
+                android:text="Rotina Alimentar"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnNaoOferecidos1Ano"
+                android:layout_width="360dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="@color/alimentos_nao_oferecidos"
+                android:drawableRight="@drawable/nao_oferecidos_1ano_img"
+                android:fontFamily="@font/signika"
+                android:text="Alimentos que não podem ser oferecidos até 1 ano de idade"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnComoQuandoDarAgua"
+                android:layout_width="360dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="@color/como_dar_agua"
+                android:drawableRight="@drawable/quando_como_dar_agua"
+                android:fontFamily="@font/signika"
+                android:text="Como e quando dar água"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/btnSaudeBucal"
+                android:layout_width="360dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="@color/saude_bucal"
+                android:drawableRight="@drawable/saude_bucal"
+                android:fontFamily="@font/signika"
+                android:text="Como cuidar da saúde bucal?"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnSeletividadeAlimentar"
+                android:layout_width="360dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="@color/seletividade_alimentar"
+                android:drawableRight="@drawable/seletividade_alimentar"
+                android:fontFamily="@font/signika"
+                android:text="Quanto a seletividade alimentar?"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnQuiz"
+                android:layout_width="360dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="@color/quiz"
+                android:drawableRight="@drawable/quiz"
+                android:fontFamily="@font/signika"
+                android:text="Teste seus conhecimentos"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

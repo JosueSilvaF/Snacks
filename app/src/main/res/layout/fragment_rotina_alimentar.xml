@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    tools:context=".fragment.guia.RotinaAlimentarFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgMulherCozinhando"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:src="@drawable/mulher_cozinhando"/>
+
+            <TextView
+                android:id="@+id/txtResumo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="@color/rotina_alimentar"
+                android:padding="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Seu bebê já tem 6 meses, e você já sabe como inicar a introdução alimentar, e agora? quantas vezes por dia e em quais momentos oferecer os sólidos? "
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTexto1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:text="Com menos sal pois até 1 ano de idade, o bebê não deve ter contato com sal (nem com açucar)."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/txtTitulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/signika"
+                android:text="E a partir de 1 ano de idade?"
+                android:textColor="#A851AC"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTexto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Oferecer a comida da família normalmente, mas sempre manter a dieta equilibrada, ingerindo legumes, frutas, verduras, grãos."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTitulo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/signika"
+                android:text="Em que horários devo oferecer?"
+                android:textColor="#A851AC"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/txtTexto3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Não é necessário haver uma hora restrita, oferecer 1 vez por dia no lanche da manhã (como frutas) ou no almoço (legumes), substituindo a mamada pela comida, nunca pela noite, pois pode não digerir muito bem e atrapalhar o sono, além disso, você não poderá ver as reações do bebê quanto a alimentação."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

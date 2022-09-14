@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    tools:context=".fragment.guia.NaoOferecidosFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgMulherPensando"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:src="@drawable/mulher_pensando" />
+
+            <TextView
+                android:id="@+id/txtResumo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="@color/alimentos_nao_oferecidos"
+                android:padding="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Seu bebê já está fazendo as refeições, mas tem alimentos que não podem ser ingeridos antes de 1 ano de idade, fique atento!"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTitulo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#998B11"
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:text="Amedoins, nozes, castanhas, etc:"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTexto1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:text="Alta probabilidade de causar alergia"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/txtTitulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#998B11"
+                android:fontFamily="@font/signika"
+                android:text="Café:"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTexto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/signika"
+                android:text="A cafeína atrapalha o sono do bebê, deixando-o mais energético"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTitulo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#998B11"
+                android:fontFamily="@font/signika"
+                android:text="Peixe cru / Gema do ovo crua:"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTexto3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/signika"
+                android:text="Pode conter bactérias em que o sistema imunológico da criança não está devidamente preparado para combater"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTitulo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#998B11"
+                android:fontFamily="@font/signika"
+                android:text="Suco:"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTexto4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/signika"
+                android:text="Obtém muita frutose (responsável pelo doce da fruta), mas pouca fibra."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTitulo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#998B11"
+                android:fontFamily="@font/signika"
+                android:text="Alimentos industrializados:"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTexto5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/signika"
+                android:text="Por serem processados e manipulados, não contém os nutrientes do alimento natural."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTitulo6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#998B11"
+                android:fontFamily="@font/signika"
+                android:text="Leite de vaca:"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTexto6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/signika"
+                android:text="Alergênico e pode causar anemia em grande quantidade."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTitulo7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#998B11"
+                android:fontFamily="@font/signika"
+                android:text="Mel:"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTexto7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/signika"
+                android:text="Contém uma bactéria que causa botulismo (infecção grave)."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTitulo8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#998B11"
+                android:fontFamily="@font/signika"
+                android:text="Frutos do mar:"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTexto8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Alta probabilidade de causar alergias."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

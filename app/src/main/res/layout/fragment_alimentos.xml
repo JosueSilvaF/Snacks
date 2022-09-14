@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    tools:context=".fragment.alimentos.AlimentosFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:rowCount="13">
+
+            <TextView
+                android:id="@+id/txtFrutas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Frutas"
+                android:textSize="22dp"
+                android:fontFamily="@font/signika"
+                android:textColor="@color/black"
+                android:layout_column="0"
+                android:layout_row="1"/>
+
+            <Button
+                android:id="@+id/btnAbacate"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="start"
+                android:drawableTop="@drawable/abacate"
+                android:fontFamily="@font/signika"
+                android:text="Abacate"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="#5CDCD97B"
+                android:layout_column="0"
+                android:layout_row="2" />
+
+            <Button
+                android:id="@+id/btnAbacaxi"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="end"
+                android:drawableTop="@drawable/abacaxi"
+                android:fontFamily="@font/signika"
+                android:text="Abacaxi"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="#FEFBD8"
+                android:layout_row="2"
+                android:layout_column="1" />
+
+            <Button
+                android:id="@+id/btnAmeixa"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="start"
+                android:drawableTop="@drawable/ameixa"
+                android:fontFamily="@font/signika"
+                android:text="Ameixa"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="#66E4787A"
+                android:layout_column="0"
+                android:layout_row="3"/>
+
+            <Button
+                android:id="@+id/btnBanana"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/shape_botoes"
+                android:drawableTop="@drawable/banana"
+                android:fontFamily="@font/signika"
+                android:text="Banana"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                app:backgroundTint="#C7FDF6A1" />
+
+            <Button
+                android:id="@+id/btnCarambola"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="start"
+                android:drawableTop="@drawable/carambola"
+                android:fontFamily="@font/signika"
+                android:text="Carambola"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="#C7FDF6A1"
+                android:layout_column="0"
+                android:layout_row="4" />
+
+            <Button
+                android:id="@+id/btnFigo"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="end"
+                android:drawableTop="@drawable/figo"
+                android:fontFamily="@font/signika"
+                android:text="Figo"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="#E3E5FE"
+                android:layout_column="1"
+                android:layout_row="4" />
+
+            <Button
+                android:id="@+id/btnGoiaba"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="start"
+                android:drawableTop="@drawable/goiaba"
+                android:fontFamily="@font/signika"
+                android:text="Goiaba"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="#FDE3E4"
+                android:layout_column="0"
+                android:layout_row="5" />
+
+            <Button
+                android:id="@+id/btnJabuticaba"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="end"
+                android:drawableTop="@drawable/jabuticaba"
+                android:fontFamily="@font/signika"
+                android:text="Jabuticaba"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="#665C5C96"
+                android:layout_column="1"
+                android:layout_row="5" />
+
+            <Button
+                android:id="@+id/btnKiwi"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="start"
+                android:drawableTop="@drawable/kiwi"
+                android:fontFamily="@font/signika"
+                android:text="Kiwi"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="#D6FFD0"
+                android:layout_column="0"
+                android:layout_row="6" />
+
+            <Button
+                android:id="@+id/btnLaranja"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="end"
+                android:drawableTop="@drawable/laranja"
+                android:fontFamily="@font/signika"
+                android:text="Laranja"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="#FEFBD8"
+                android:layout_column="1"
+                android:layout_row="6" />
+
+            <Button
+                android:id="@+id/btnMaca"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="start"
+                android:drawableTop="@drawable/maca"
+                android:fontFamily="@font/signika"
+                android:text="Maça"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="#66E4787A"
+                android:layout_column="0"
+                android:layout_row="7" />
+
+            <Button
+                android:id="@+id/btnMamao"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="end"
+                android:drawableTop="@drawable/mamao"
+                android:fontFamily="@font/signika"
+                android:text="Mamão"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="#94FEB76C"
+                android:layout_column="1"
+                android:layout_row="7" />
+
+            <Button
+                android:id="@+id/btnManga"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="start"
+                android:drawableTop="@drawable/manga"
+                android:fontFamily="@font/signika"
+                android:text="Manga"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="#C7FDE18D"
+                android:layout_column="0"
+                android:layout_row="8" />
+
+            <Button
+                android:id="@+id/btnMelancia"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="end"
+                android:drawableTop="@drawable/melancia"
+                android:fontFamily="@font/signika"
+                android:text="Melancia"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="#BAB7C889"
+                android:layout_column="1"
+                android:layout_row="8" />
+
+            <Button
+                android:id="@+id/btnMelao"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="start"
+                android:drawableTop="@drawable/melao"
+                android:fontFamily="@font/signika"
+                android:text="Melão"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="#CCD3CA57"
+                android:layout_column="0"
+                android:layout_row="9" />
+
+            <Button
+                android:id="@+id/btnPera"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="end"
+                android:drawableTop="@drawable/pera"
+                android:fontFamily="@font/signika"
+                android:text="Pêra"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="#2BDCD97B"
+                android:layout_column="1"
+                android:layout_row="9" />
+
+            <TextView
+                android:id="@+id/txtVerduras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Verduras"
+                android:textSize="22dp"
+                android:fontFamily="@font/signika"
+                android:textColor="@color/black"
+                android:layout_column="0"
+                android:layout_row="10"/>
+
+            <Button
+                android:id="@+id/btnVerduras"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="start"
+                android:drawableTop="@drawable/img_brocolis"
+                android:fontFamily="@font/signika"
+                android:text="Verduras"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="@color/white"
+                android:layout_column="0"
+                android:layout_row="11" />
+
+        </GridLayout>
+
+    </ScrollView>
+
+</FrameLayout>

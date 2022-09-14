@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/fundo"
+    tools:context=".fragment.alimentos.AbacaxiFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTituloAbacaxi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Abacaxi"
+                android:textColor="#DFA306"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imgAbacaxi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/abacaxi2"/>
+
+            <TextView
+                android:id="@+id/txtTitulo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Como oferecer:"
+                android:textColor="#DFA306"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTexto1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:text="Aos 6-9 meses, depois de descascar, corte em fatias finas (1 dedo de largura) retirando a parte central, o suco não é recomendado para menores de 1 ano (por obter muito açucar), amassá-lo não é ideal pois muitas fibras são perdidas."
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/txtTitulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Benefícios:"
+                android:textColor="#DFA306"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTexto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:text="• Fonte de fibras e vitaminas A, B1, B2;
+                    \n• Obtém magnésio e cálcio."
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/txtTitulo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Reação no organismo:"
+                android:textColor="#DFA306"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTexto3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:text="Laxativo."
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/txtTitulo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Atenção:"
+                android:textColor="#DFA306"
+                android:textSize="17dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtTexto4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:text="Risco de alergia por ser ácido."
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/txtTitulo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Armazenamento:"
+                android:textColor="#DFA306"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTexto5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:text="Antes de cortar, mantenha em um saco plástico para acelerar o amadurecimento, depois de aberto cubra com um saco plástico ou em um pote com tampa. Descarte a água que soltará ao ser cortado."
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+</ScrollView>

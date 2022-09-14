@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_inicio"
+        android:icon="@drawable/inicio_inferior_icon"
+        android:title="Inicio"/>
+
+    <item
+        android:id="@+id/ic_anotacoes"
+        android:icon="@drawable/anotacoes_inferior_icon"
+        android:title="Anotações"/>
+
+    <item
+        android:id="@+id/ic_receitas"
+        android:icon="@drawable/receitas_inferior_icon"
+        android:title="Receitas"/>
+
+</menu>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/fundo"
+    tools:context=".fragment.receitas.PapinhaCarneBatataAboboraFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTituloPapinhaCarneBatataAbobora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Papinha de carne, batata e abóbora"
+                android:textColor="#CDB800"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtTitulo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Ingredientes:"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTexto1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:textColorHighlight="@color/white"
+                android:text="1 colher de sobremesa de óleo
+                    \n½ cebola picada
+                    \n1 dente de alho pequeno
+                    \n2 colheres de sopa de carne moída
+                    \n1 batata pequena cortada em cubos
+                    \n1 inhame pequeno cortado em cubos
+                    \n2 colheres de sopa de abóboras cortadas em cubos"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/txtTitulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Modo de preparo:"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTexto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:text="Em uma panela, aqueça o óleo e refogue a cebola, o alho e a carne moída. Em seguida, acrescente a batata, o inhame e abóbora. Cubra com água, tampe a panela e cozinhe até que todos ingredientes estejam macios e com um pouco de caldo. Depois de pronto, amasse tudo grosseiramente com o garfo e sirva. "
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <ImageView
+                android:id="@+id/imgPapinhaCarneBatataAbobora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/papinha_carne_batata_abobora1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

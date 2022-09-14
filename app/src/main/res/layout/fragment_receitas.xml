@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    tools:context=".fragment.receitas.ReceitasFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:rowCount="6">
+
+            <Button
+                android:id="@+id/btnPapinhaCarneBatataAbobora"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/papinha_carne_batata_abobora"
+                android:fontFamily="@font/signika"
+                android:text="Papinha de carne, batata e abóbora"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:layout_gravity="start"/>
+
+            <Button
+                android:id="@+id/btnBolinhoArrozFeijao"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/bolinho_arroz_feijao"
+                android:fontFamily="@font/signika"
+                android:text="Bolinho de arroz e feijão"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:layout_gravity="end" />
+
+            <Button
+                android:id="@+id/btnCroqueteFrangoQuinoa"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/croquete_frango_quinoa"
+                android:fontFamily="@font/signika"
+                android:text="Croquete de frango com quinoa"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_gravity="start" />
+
+            <Button
+                android:id="@+id/btnOmeleteTomateCenoura"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/omelete_tomate_cenoura"
+                android:fontFamily="@font/signika"
+                android:text="Omelete com tomate e cenoura"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:layout_gravity="end" />
+
+            <Button
+                android:id="@+id/btnBolinhoMilho"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/bolinho_milho"
+                android:fontFamily="@font/signika"
+                android:text="Bolinho de Milho"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:layout_gravity="start" />
+
+            <Button
+                android:id="@+id/btnBolinhoArrozCouveflorAbobrinha"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/bolinho_arroz_couveflor_abobrinha"
+                android:fontFamily="@font/signika"
+                android:text="Bolinho de arroz, couve-flor e abobrinha"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:layout_gravity="end" />
+
+            <Button
+                android:id="@+id/btnPanquequinhaMaca"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/panquequinha_maca"
+                android:fontFamily="@font/signika"
+                android:text="Panquequinha de Maça"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:layout_column="0"
+                android:layout_row="3"
+                android:layout_gravity="start" />
+
+            <Button
+                android:id="@+id/btnBolinhoBananaAmeixa"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/bolinho_banana_ameixa"
+                android:fontFamily="@font/signika"
+                android:text="Bolinho de banana com ameixa"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:layout_column="1"
+                android:layout_row="3"
+                android:layout_gravity="end" />
+
+            <Button
+                android:id="@+id/btnCrepiocaCenoura"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/crepioca_cenoura"
+                android:fontFamily="@font/signika"
+                android:text="Crepioca de cenoura"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:layout_column="0"
+                android:layout_row="4"
+                android:layout_gravity="start" />
+
+            <Button
+                android:id="@+id/btnSorveteManga"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/sorvete_manga"
+                android:fontFamily="@font/signika"
+                android:text="Sorvete de Manga"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:layout_column="1"
+                android:layout_row="4"
+                android:layout_gravity="end" />
+
+            <Button
+                android:id="@+id/btnMinhasReceitas"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/img_minhas_receitas"
+                android:fontFamily="@font/signika"
+                android:text="Minhas Receitas"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:layout_column="0"
+                android:layout_row="5"
+                android:layout_gravity="start" />
+
+        </GridLayout>
+
+    </ScrollView>
+
+</FrameLayout>

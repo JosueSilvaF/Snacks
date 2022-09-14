@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    tools:context=".fragment.guia.ComoComecarFragment">
+             
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".activity.ComoComecarActivity">
+
+            <ImageView
+                android:id="@+id/imgMaeAmamentando"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:src="@drawable/mae_amamentando" />
+
+            <TextView
+                android:id="@+id/txtResumo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="@color/como_comecar"
+                android:padding="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Seu bebê já tem 6 meses, e agora? o que deve ser oferecido? frutas? legumes?  "
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTexto1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:text="É recomendado comecar com uma papinha de fruta ou legume, mas não ofereça suco!"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/txtTitulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/signika"
+                android:text="Quais alimentos devo iniciar? "
+                android:textColor="#CB6B6B"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTexto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Comece pelos alimentos salgados (batata, madioca, etc)"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTitulo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/signika"
+                android:text="Por que iniciar com almentos salgados?"
+                android:textColor="#CB6B6B"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTexto3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/signika"
+                android:text="O alimento doce é mais atrativo, e naturalmente mais “gostoso”, ou seja,  no momento em que você oferecer algo com menos gosto depois de ter oferecido algo doce, como por exemplo uma batata,  a criança tende a não aceitar tão bem, e a ingestão de legumes será difícil. "
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTitulo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/signika"
+                android:text="6 dicas para inciar a IA:"
+                android:textColor="#CB6B6B"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTexto4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/signika"
+                android:text="1. Tradicional, BLW ou misto;
+                    \n2. Só comece quando a criança conseguir sentar com ou sem encosto (se ela senta mas não tem 6 meses, não comece);
+                    \n3. Não pense que os solidos devem ser a maior fonte de caloria (ate 1 ano, o leite é o principal);
+                    \n4. Deixe a criança brincar com a comida (com o objetivo de desenvolver os sentidos da criança);
+                    \n5. Ofereça pelo menos 8 vezes o mesmo alimento para ter certeza se o bebê gosta ou não;
+                    \n6. Não use colher funda, pois atrapalha na ingestão do alimento."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTitulo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/signika"
+                android:text="Por que não oferecer suco?"
+                android:textColor="#CB6B6B"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTexto5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/signika"
+                android:text="É proibido a ingestão de açucar e sal antes dos 2 anos, e os sucos processados obtém alta quantidade de açucar."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

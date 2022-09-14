@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white"
+    tools:context=".activity.SobreNosActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF2E9"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar"/>
+
+        <ImageView
+            android:id="@+id/imgPerfil"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sobrenos"/>
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Idealizadores"
+            android:fontFamily="@font/chewy"
+            android:textSize="30dp"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:background="@drawable/shape_linear_layout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Programador: Josué Silva
+                    \nAnalista: Raíssa Assimen
+                    \nDesigner: Rebeka Almeida "
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Olá, somos alunos concluintes do Ensino Médio na Fundação Matias Machline (2019-2021), e o projeto “Snacks” deu vida ao nosso TCC."
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:padding="15dp"
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="#A0D8A3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Nosso objetivo é transformar a alimentação dos nossos pequenos, para que futuramente tenhamos indivíduos mais saudáveis e consequentemente,  índices de doenças por conta da má alimentação inexistentes."
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:textSize="17dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Visite nosso instagram, curte, comente e compartilhe para ajudar a levar nosso objetivo para o mundo todo."
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:textSize="17dp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/btnInstaSnacks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:text="Projeto Snacks"
+                android:textAllCaps="false"
+                android:background="@color/transparent"
+                android:fontFamily="@font/signika"
+                android:textSize="17dp"
+                android:textColor="#515BD4"
+                android:drawableLeft="@drawable/insta_icon"/>
+
+            <Button
+                android:id="@+id/btnInstaJosue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:text="Josué Silva"
+                android:textAllCaps="false"
+                android:background="@color/transparent"
+                android:fontFamily="@font/signika"
+                android:textSize="17dp"
+                android:textColor="#8134AF"
+                android:drawableLeft="@drawable/insta_icon"/>
+
+            <Button
+                android:id="@+id/btnInstaRaissa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:text="Raíssa Assimen"
+                android:textAllCaps="false"
+                android:background="@color/transparent"
+                android:fontFamily="@font/signika"
+                android:textSize="17dp"
+                android:textColor="#DD2A7B"
+                android:drawableLeft="@drawable/insta_icon"/>
+
+            <Button
+                android:id="@+id/btnInstaRebeka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center"
+                android:text="Rebeka Almeida"
+                android:textAllCaps="false"
+                android:background="@color/transparent"
+                android:fontFamily="@font/signika"
+                android:textSize="17dp"
+                android:textColor="#FFD357"
+                android:drawableLeft="@drawable/insta_icon"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

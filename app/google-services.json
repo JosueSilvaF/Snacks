@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "416949542205",
+    "project_id": "snacks-database",
+    "storage_bucket": "snacks-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416949542205:android:7daf8393a356c379203954",
+        "android_client_info": {
+          "package_name": "com.example.snacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416949542205-tsqa3ph2b4ilbb8vb77e368g50ns88js.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.snacks",
+            "certificate_hash": "612b6dc922c9377fd164762ff9f7029151950b60"
+          }
+        },
+        {
+          "client_id": "416949542205-9pnjgbmmv40ml4ig296abeb6o4ebsu74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9ISs8wnDWtJ2pV7c2EPLEdcggMGXq6tc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416949542205-9pnjgbmmv40ml4ig296abeb6o4ebsu74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

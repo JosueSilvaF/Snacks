@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    android:fillViewport="true"
+    tools:context=".activity.CriarReceitaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/edtTituloReceitas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:backgroundTint="@color/transparent"
+            android:fontFamily="@font/signika"
+            android:hint="Insira o Título aqui..."
+            android:textColor="#CDB800"
+            android:textColorHint="#CDB800"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/txtIngredientes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/edtTituloReceitas"
+            android:fontFamily="@font/signika"
+            android:text="Ingredientes:"
+            android:textColor="#81CB85"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edtIngredientesReceitas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtIngredientes"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/transparent"
+            android:fontFamily="@font/signika"
+            android:hint="Escreva aqui os ingredientes da receita..."
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtPreparo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtIngredientesReceitas"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/signika"
+            android:text="Modo de Preparo:"
+            android:textColor="#81CB85"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edtPreparoReceitas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPreparo"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/transparent"
+            android:fontFamily="@font/signika"
+            android:hint="Escreva aqui os ingredientes da receita..."
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true">
+
+            <Button
+                android:id="@+id/btnSairReceita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/shape_botoes"
+                android:fontFamily="@font/signika"
+                android:text="Voltar"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                app:backgroundTint="@color/resposta_errada" />
+
+
+            <Button
+                android:id="@+id/btnSalvarReceita"
+                android:onClick="validarRecei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/shape_botoes"
+                android:fontFamily="@font/signika"
+                android:text="Salvar"
+                android:textAllCaps="false"
+                app:backgroundTint="#81CB85" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

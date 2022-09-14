@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/fundo"
+    tools:context=".fragment.receitas.CroqueteFrangoQuinoaFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTituloCroqueteFrangoQuinoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Croquete de frango com quinoa"
+                android:textColor="#CDB800"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtTitulo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Ingredientes:"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTexto1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:textColorHighlight="@color/white"
+                android:text="1/3 xícara de chá de quinoa
+                    \n1 filé de peito de frango cozido e desfiado
+                    \n1 xícara de chá de mandioquinha amassada
+                    \n1 cebola pequena
+                    \n2 dentes de alho
+                    \n1 colher de sopa de aveia em flocos finos
+                    \n¼ de xícara de cebolinha"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/txtTitulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Modo de preparo:"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTexto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:text="Refogue a cebola e o alho com um pouco de azeite, coloque a quinoa lavada e refogue mais um pouco. Adicione uma xícara de água e deixe cozinhar até ficar macia. Descasque a mandioquinha, cozinhe bem e amasse. Junte todos os ingredientes com o frango desfiado em uma tigela e misture.
+                    \n\nPara modelar, umedeça as mãos com água, retire uma porção de massa e modele no formato desejado. Coloque os croquetes em uma assadeira untada com azeite. Asse em forno pré-aquecido a 200ºC por cerca de 20 minutos e vire na metade do tempo para assar os dois lados"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <ImageView
+                android:id="@+id/imgCroqueteFrangoQuinoa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/croquete_frango_quinoa1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

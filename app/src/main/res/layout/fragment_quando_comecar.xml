@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/fundo"
+    tools:context=".fragment.guia.QuandoComecarFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".activity.QuandoComecarActivity">
+
+            <ImageView
+                android:id="@+id/imgBebeGarca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:src="@drawable/bebe_garca" />
+
+            <TextView
+                android:id="@+id/txtResumo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/shape_botoes"
+                app:backgroundTint="@color/quando_comecar"
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:padding="20dp"
+                android:text="A indrodução alimentar inicia aos 6 meses de idade, antes desse período não deve-se fazer a ingestão de sólidos de maneira nenhuma. "
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/txtTitulo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/signika"
+                android:justificationMode="inter_word"
+                android:text="Por que sólidos só depois dos 6 meses?"
+                android:textColor="#B5774B"
+                android:textSize="17dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtTexto1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Não há necessidade nutricional pois o leite obtém tudo que o bebê precisa. Além disso, o bebê não está pronto, pois é necessário coordenação motora e  neurológica para ingerir os sólidos."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTitulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/signika"
+                android:text="E se eu quiser iniciar antes dos 6 meses? é prejudicial?"
+                android:textColor="#B5774B"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTexto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/signika"
+                android:text="Sim, pois  o bebê não tem maturidade suficiente de mastigar e digerir o alimento, caso necessário, converse com o seu pediatra."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTitulo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/signika"
+                android:text="O bebê começou a comer sólidos, devo parar de amamentar?"
+                android:textColor="#B5774B"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/txtTexto3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/signika"
+                android:text="De forma alguma, ate os 6 meses, o leite é exclusivo, a partir dos 6 meses o leite é complementar, mas até 1 ano a principal fonte de nutrição continua sendo o leite, é recomendado a amamentação até os 2 anos de idade. "
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

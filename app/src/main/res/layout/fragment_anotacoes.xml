@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    android:fillViewport="true"
+    tools:context=".fragment.anotacoes.AnotacoesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtResumo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/shape_botoes"
+            app:backgroundTint="#81CB85"
+            android:fontFamily="@font/signika"
+            android:justificationMode="inter_word"
+            android:padding="20dp"
+            android:text="Marque as frutas ou legumes as quais seu bebê já comeu, e caso queira registrar algo, não esqueça de anotar, lembrando que é importante oferecer a maior diversidade de alimentos para que no futuro seu bebê tenha a melhor vida alimentar possível."
+            android:textColor="@color/black"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/txtTexto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/txtResumo"
+            android:fontFamily="@font/signika"
+            android:justificationMode="inter_word"
+            android:text="Com base nas suas respostas, caso queira, será possível gerar um relatório para ser entregue ao pediatra nutricionista (é essencial passar por ele)."
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTexto1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:columnCount="2"
+            android:gravity="center"
+            android:rowCount="7">
+
+            <CheckBox
+                android:id="@+id/checkAbacate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="70dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:fontFamily="@font/signika"
+                android:textColor="@color/black"
+                android:text="Abacate" />
+
+            <CheckBox
+                android:id="@+id/checkAbacaxi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="70dp"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:fontFamily="@font/signika"
+                android:textColor="@color/black"
+                android:text="Abacaxi" />
+
+            <CheckBox
+                android:id="@+id/checkAmeixa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="70dp"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:fontFamily="@font/signika"
+                android:textColor="@color/black"
+                android:text="Ameixa" />
+
+            <CheckBox
+                android:id="@+id/checkBanana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="70dp"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:fontFamily="@font/signika"
+                android:textColor="@color/black"
+                android:text="Banana" />
+
+            <CheckBox
+                android:id="@+id/checkCarambola"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="70dp"
+                android:layout_row="5"
+                android:layout_column="0"
+                android:fontFamily="@font/signika"
+                android:textColor="@color/black"
+                android:text="Carambola" />
+
+            <CheckBox
+                android:id="@+id/checkFigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:fontFamily="@font/signika"
+                android:textColor="@color/black"
+                android:text="Figo" />
+
+            <CheckBox
+                android:id="@+id/checkJabuticaba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:fontFamily="@font/signika"
+                android:textColor="@color/black"
+                android:text="Jabuticaba" />
+
+            <CheckBox
+                android:id="@+id/checkKiwi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:fontFamily="@font/signika"
+                android:textColor="@color/black"
+                android:text="Kiwi" />
+
+            <CheckBox
+                android:id="@+id/checkLaranja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_row="4"
+                android:layout_column="1"
+                android:fontFamily="@font/signika"
+                android:textColor="@color/black"
+                android:text="Laranja" />
+
+            <CheckBox
+                android:id="@+id/checkMaca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_row="5"
+                android:layout_column="1"
+                android:fontFamily="@font/signika"
+                android:textColor="@color/black"
+                android:text="Maça" />
+
+        </GridLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/imgAnotacoes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/img_anotacoes" />
+
+            <ImageButton
+                android:id="@+id/imgbtnAnotacoes"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignRight="@id/imgAnotacoes"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/shape_botoes"
+                android:src="@drawable/ic_entrar"
+                app:backgroundTint="#81CB85" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

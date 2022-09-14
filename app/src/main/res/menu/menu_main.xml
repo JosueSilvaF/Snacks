@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/Logado"
+        android:visible="false">
+
+        <item
+            android:id="@+id/menu_perfil"
+            android:title="Pefil"
+            android:icon="@drawable/perfil_icon"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/menu_aboutus"
+            android:title="Sobre Nós"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/menu_sair"
+            android:title="Sair"
+            app:showAsAction="never"/>
+
+    </group>
+
+    <group android:id="@+id/Deslogado">
+
+        <item
+            android:id="@+id/menu_login"
+            android:title="Login"
+            app:showAsAction="never"/>
+
+    </group>
+
+</menu>

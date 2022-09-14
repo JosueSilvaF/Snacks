@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/drawable/side_nav_bar.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/activity_cadastro.xml" value="0.29691032403918616" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/activity_dados.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/activity_perfil.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/activity_receitas.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/activity_redefinir_senha.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/bottom_navigation.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/fragment_abacate.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/fragment_anotacoes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/fragment_anotacoes_salvas.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/fragment_criar_anotacao.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/fragment_inicio.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/fragment_jabuticaba.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/fragment_quiz_pergunta6.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/fragment_receitas.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/layout/toolbar.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/NENECO/Desktop/Snacks/app/src/main/res/menu/menu_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/suporte/Documents/Josue 3CI/Snacks/app/src/main/res/drawable/ic_sair_da_conta.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/suporte/Documents/Josue 3CI/Snacks/app/src/main/res/drawable/shape_linear_layout.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/suporte/Documents/Josue 3CI/Snacks/app/src/main/res/layout/activity_cadastro.xml" value="0.22" />
+        <entry key="..\:/Users/suporte/Documents/Josue 3CI/Snacks/app/src/main/res/layout/activity_home.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/suporte/Documents/Josue 3CI/Snacks/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/suporte/Documents/Josue 3CI/Snacks/app/src/main/res/layout/activity_perfil.xml" value="0.25" />
+        <entry key="..\:/Users/suporte/Documents/Josue 3CI/Snacks/app/src/main/res/layout/fragment_guia.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/suporte/Documents/Josue 3CI/Snacks/app/src/main/res/layout/fragment_inicio.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/suporte/Documents/Josue 3CI/Snacks/app/src/main/res/layout/fragment_q4_resposta1.xml" value="0.1921875" />
+        <entry key="..\:/Users/suporte/Documents/Josue 3CI/Snacks/app/src/main/res/layout/fragment_q6_resposta1.xml" value="0.1921875" />
+        <entry key="..\:/Users/suporte/Documents/Josue 3CI/Snacks/app/src/main/res/layout/fragment_quiz_pergunta5.xml" value="0.22" />
+        <entry key="..\:/Users/suporte/Documents/Josue 3CI/Snacks/app/src/main/res/layout/fragment_quiz_pergunta6.xml" value="0.1921875" />
+        <entry key="..\:/Users/suporte/Documents/Josue 3CI/Snacks/app/src/main/res/layout/toolbar.xml" value="0.1921875" />
+        <entry key="..\:/Users/suporte/Documents/Josue 3CI/Snacks/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.1921875" />
+        <entry key="..\:/Users/suporte/Documents/Josue 3CI/Snacks/app/src/main/res/menu/menu_main.xml" value="0.1921875" />
+        <entry key="..\:/src/Snacks/app/src/main/res/drawable/shape_anotacoes.xml" value="0.33055555555555555" />
+        <entry key="..\:/src/Snacks/app/src/main/res/drawable/shape_botoes.xml" value="0.3441025641025641" />
+        <entry key="..\:/src/Snacks/app/src/main/res/drawable/shape_foto.xml" value="0.3441025641025641" />
+        <entry key="..\:/src/Snacks/app/src/main/res/drawable/shape_linear_layout.xml" value="0.33055555555555555" />
+        <entry key="..\:/src/Snacks/app/src/main/res/drawable/shape_pesquisa.xml" value="0.33055555555555555" />
+        <entry key="..\:/src/Snacks/app/src/main/res/drawable/shape_receitas.xml" value="0.33055555555555555" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout-v26/fragment_ameixa.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_alterar_dados.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_anotacoes_salvas.xml" value="0.25" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_cadastro.xml" value="0.3277777777777778" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_cadastro2.xml" value="0.3277777777777778" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_criar_anotacao.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_criar_receita.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_home.xml" value="0.28703703703703703" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_perfil.xml" value="0.25" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_perfil2.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_perfil_google.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_quiz.xml" value="0.3282051282051282" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_receita_selecionada.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_receitas_salvas.xml" value="0.25" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_redefinir_senha.xml" value="0.30833333333333335" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_sobre_nos.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_splash.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/activity_splash_win_quiz.xml" value="0.31927083333333334" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/adapteranotacoes.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/adapterreceitas.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/bottom_navigation.xml" value="0.28703703703703703" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_abacate.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_abacaxi.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_alimentos.xml" value="0.30462962962962964" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_ameixa.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_anotacoes.xml" value="0.33" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_anotacoes_salvas.xml" value="0.325" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_banana.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_bolinho_arroz_couveflor_abobrinha.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_carambola.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_criar_anotacao.xml" value="0.3194444444444444" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_figo.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_goiaba.xml" value="0.25796049979846836" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_guia.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_inicio.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_jabuticaba.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_kiwi.xml" value="0.30213160333642264" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_laranja.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_maca.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_mamao.xml" value="0.30462962962962964" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_manga.xml" value="0.30213160333642264" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_melancia.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_melao.xml" value="0.30213160333642264" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_omelete_tomate_cenoura.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_pera.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q1_resposta1.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q1_resposta2.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q1_resposta3.xml" value="0.3282051282051282" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q1_resposta4.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q2_resposta1.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q2_resposta2.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q2_resposta3.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q2_resposta4.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q3_resposta1.xml" value="0.3282051282051282" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q3_resposta2.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q3_resposta3.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q3_resposta4.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q4_resposta1.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q4_resposta2.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q4_resposta3.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q4_resposta4.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q5_resposta1.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q5_resposta2.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q5_resposta3.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q5_resposta4.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q6_resposta1.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q6_resposta2.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q6_resposta3.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q6_resposta4.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q7_resposta1.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q7_resposta2.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q7_resposta3.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_q7_resposta4.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_quiz_pergunta1.xml" value="0.3282051282051282" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_quiz_pergunta2.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_quiz_pergunta3.xml" value="0.3282051282051282" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_quiz_pergunta4.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_quiz_pergunta5.xml" value="0.30185185185185187" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_quiz_pergunta6.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_quiz_pergunta7.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_receitas.xml" value="0.287962962962963" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/fragment_verduras.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/toolbar.xml" value="0.2916666666666667" />
+        <entry key="..\:/src/Snacks/app/src/main/res/layout/toolbar_anotacoes.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/menu/menu_anotacoes.xml" value="0.3333333333333333" />
+        <entry key="..\:/src/Snacks/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.28703703703703703" />
+        <entry key="..\:/src/Snacks/app/src/main/res/menu/menu_main.xml" value="0.28703703703703703" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

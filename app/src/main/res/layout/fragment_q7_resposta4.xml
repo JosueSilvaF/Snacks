@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/fundo"
+    tools:context=".fragment.quiz.Q7Resposta4Fragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:rowCount="5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center"
+            android:text="  6"
+            android:textSize="17dp"
+            android:fontFamily="@font/signika"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/quiz7_acertou"/>
+
+        <TextView
+            android:id="@+id/txtPergunta6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:justificationMode="inter_word"
+            android:text="Qual não faz parte das consequências da seletividade alimentar?"
+            android:fontFamily="@font/signika"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/btnQ7Resposta1"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Desnutrido"
+            android:textSize="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/numero_quiz"
+            android:background="@drawable/shape_botoes"
+            app:backgroundTint="@color/resposta_nao_clicada"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="start" />
+
+        <Button
+            android:id="@+id/btnQ7Resposta2"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Esquelético"
+            android:textSize="15dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/numero_quiz"
+            android:background="@drawable/shape_botoes"
+            app:backgroundTint="@color/resposta_nao_clicada"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_gravity="end"/>
+
+        <Button
+            android:id="@+id/btnQ7Resposta3"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="20dp"
+            android:text="Obeso"
+            android:textSize="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/numero_quiz"
+            android:background="@drawable/shape_botoes"
+            app:backgroundTint="@color/resposta_nao_clicada"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_gravity="start" />
+
+        <Button
+            android:id="@+id/btnQ7Resposta4"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="20dp"
+            android:text="Viçoso"
+            android:textSize="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/numero_quiz"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:background="@drawable/shape_botoes"
+            app:backgroundTint="@color/resposta_certa" />
+
+        <Button
+            android:id="@+id/btnContinuarWin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="30dp"
+            android:text="Finalizar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/shape_botoes"
+            app:backgroundTint="#00FF00"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="end"/>
+
+    </GridLayout>
+
+</LinearLayout>
